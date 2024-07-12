@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #282828;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden; /* Asegura que el contenido no desborde */
+    border-radius: 50px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor sin deformarse */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #9370db, #00bfff);
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #9370db;
+    font-size: 2.5rem;
+}
+
+.card {
+    display: inline-block;
+    margin: 1rem;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px; /* Asegura que todas las tarjetas tengan la misma altura */
+    overflow: hidden; /* Asegura que el contenido no desborde */
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* Asegura que la imagen no se deforme */
+    max-height: 150px; /* Asegura que la imagen no exceda esta altura */
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #00bfff;
+    margin-top: 0.5rem;
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social a img {
+    width: 50px;
+    height: 50px; /* Asegura que los iconos de redes sociales tengan un tamaño fijo */
+    transition: transform 0.3s;
+}
+
+.social a img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #282828;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
